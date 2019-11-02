@@ -1,0 +1,18 @@
+//撰寫格式為 Proto V3
+syntax = "proto3";
+
+// User 帶有使用者資料，如帳號、密碼。
+message User {
+    string username = 1;
+    string password = 2;
+}
+
+//Post 帶有文章編號及內容 
+message Post {
+    int64 id = 1;
+    string content = 2;
+}
+
+//需定義好資料型態及資料
+//數值代表Protobuf在編碼及解碼時，所使用的編號
+//這代表即使你移除了其中一個欄位，也不會打亂整個資料結構的編碼與解碼
