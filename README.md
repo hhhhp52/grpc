@@ -10,7 +10,6 @@ If you want to know more details,you can read Yami's article through the referen
 
 ------------------------------
 ## *Project Structure*
-
 | Directory | Description |
 | - | - |
 | example/ |  Protocol Buffer Example |
